@@ -1,5 +1,6 @@
 # Neural_Network_Charity_Analysis
 ## Overview
+Using data received from Alphabet Soup, we are tasked with developing a deep learning model that can correctly identify which organizations that request funding will be successful. 
 ## Results
 ### Important Questions to Answers
 #### Data PreProcessing
@@ -20,3 +21,6 @@
     - Attempted to remove extraneaous features. 
     - Altered the # of neurons in the existing layers. 
 ## Summary
+Overall, prior to my attempt at optimization, we were able to achieve roughly 72% accuracy regarding predicting whether a campaign is successful or not after they receive funding. I believe that 75% for this particular application, is an acceptable level of accuracy as there will always be some inherent risk when providing funding for external institutions. 
+### Suggestion
+A suggestion would be to potentially look at implementing a classification model since the only outcomes we're interested in are "Successful" and "Not Successful". 

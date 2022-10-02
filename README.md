@@ -12,7 +12,7 @@ Using data received from Alphabet Soup, we are tasked with developing a deep lea
   - The two variables that are neither targets nor features would be EIN and NAME.
 #### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  - I selected 3 layers, input hidden and output. RELU was chosen as the activation function as it only gives positive outputs, is easier to train, and oftentimes achieves better performance. 
+  - I selected 3 layers, input, hidden, and output. In total, there are 13 neurons between the input and hidden layers. RELU was chosen as the activation function as it only gives positive outputs, is easier to train, and oftentimes achieves better performance than it's counterparts. 
 - Were you able to achieve the target model performance?
   - Unfortunately, I was not able to achieve the target model performance when attempting to optimize the deep learning model that was being used. 
 - What steps did you take to try and increase model performance?
